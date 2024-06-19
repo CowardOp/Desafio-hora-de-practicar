@@ -1,2 +1,2 @@
 alert("Hola Mundo");
-prompt("elige un numero:");
+let numeroUsuario = prompt("Elije un numero:");
