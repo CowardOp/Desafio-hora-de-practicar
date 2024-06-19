@@ -1,1 +1,1 @@
-console.log("Ejecutando el sistema")
+alert('Hola Mundo')
