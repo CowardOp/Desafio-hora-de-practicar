@@ -1,12 +1,23 @@
-let numeroSecreto = 6;
-let numeroUsuario = prompt("Elije un numero:");
+alert("¡Bienvenida y bienvenido a nuestro sitio web!");
 
-console.log(numeroUsuario);
+let nombre = "Lina";
+let edad = 25;
 
-if (numeroUsuario == numeroSecreto) {
-  alert("Correcto");
-  console.log("Correcto");
-} else {
-  alert("incorrecto");
-  console.log("incorrecto");
+let numeroDeVentas = 50;
+let saldoDisponinles = 1000;
+
+alert("¡Error! Completa todos los campos");
+
+var mensajeDeError = "¡Error! Completa todos los campos";
+
+alert(mensajeDeError);
+
+nombre = prompt("Por favor, ingresa tu nombre:");
+
+edad = prompt("Por favor, ingresa tu edad:");
+
+if (edad >= 18) {
+  alert("¡Puedes obtener tu licencia de conducir!");
+}else{
+    alert("Aun eres menor de edad")
 }
