@@ -10,7 +10,7 @@ Este codigo realiza la comparacion
 
 if (numeroUsuario == numeroSecreto) {
   //Acertaste
-  alert("Correcto");
+  alert(`Asertaste, el numero es: ${numeroUsuario}`);
   console.log("Correcto");
 } else {
   //Incorrecto
