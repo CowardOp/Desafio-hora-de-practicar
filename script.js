@@ -30,7 +30,7 @@ while (numeroUsuario != numeroSecreto) {
 }
 */
 
-let numeroUno = 0;
+let numeroUno = 1;
 
 while (numeroUno <= 10) {
   console.log(numeroUno);
