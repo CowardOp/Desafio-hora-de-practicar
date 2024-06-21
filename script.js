@@ -1,4 +1,4 @@
-/*//variables
+//variables
 let numeroSecreto = 6;
 let numeroUsuario = 0;
 let intentos = 1;
@@ -27,19 +27,4 @@ while (numeroUsuario != numeroSecreto) {
     palabraIntentos = "intentos";
     console.log("Incorrecto");
   }
-}
-*/
-
-let numeroUno = 1;
-
-while (numeroUno <= 10) {
-  console.log(numeroUno);
-  numeroUno++;
-}
-
-let numeroDos = 10;
-
-while (numeroDos > 0) {
-  console.log(numeroDos);
-  numeroDos--;
 }
