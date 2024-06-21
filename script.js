@@ -9,7 +9,9 @@ while (numeroUsuario != numeroSecreto) {
 
   if (numeroUsuario == numeroSecreto) {
     //Acertaste
-    alert(`Asertaste, el numero es:  ${numeroUsuario}`);
+    alert(
+      `Asertaste, el numero es:  ${numeroUsuario}, lo lograste en ${intentos} intentos`
+    );
     console.log("Correcto");
     intentos = 0;
     break;
